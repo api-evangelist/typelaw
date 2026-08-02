@@ -1,19 +1,47 @@
 aid: typelaw
 name: TypeLaw
-description: TypeLaw is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: TypeLaw is an AI-powered legal document automation platform that formats
+  and prepares court-compliant briefs for attorneys, paralegals, and law firms. Lawyers
+  upload a draft brief and pick the court, and TypeLaw automatically produces a compliant
+  PDF with tables of contents, tables of authorities, hyperlinked citations, cover
+  pages, and certificates, with a human expert reviewing every document before delivery.
+  A Bloomberg Beta portfolio company, TypeLaw delivers its product through its web
+  application and does not currently publish a public developer API.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.typelaw.com/wp-content/uploads/2023/07/typelaw.jpg
 url: https://raw.githubusercontent.com/api-evangelist/typelaw/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bloomberg-beta
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Legal
+- Legal Technology
+- Document Automation
+- Court Filings
+- Briefs
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,25 @@ maintainers:
 common:
 - type: Website
   url: https://www.typelaw.com/
+- type: Blog
+  url: https://www.typelaw.com/blog/
+- type: BlogRSS
+  url: https://www.typelaw.com/feed/
+- type: Pricing
+  url: https://www.typelaw.com/pricing/
+- type: Support
+  url: https://www.typelaw.com/contact/
+- type: SignUp
+  url: https://app.typelaw.com/get-started
+- type: Login
+  url: https://app.typelaw.com/users/sign_in
+- type: TermsOfService
+  url: https://www.typelaw.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.typelaw.com/privacy-policy/
+- type: GitHubOrganization
+  url: https://github.com/typelaw
+- type: LLMsTxt
+  url: llms/typelaw-llms.txt
+- type: DomainSecurity
+  url: security/typelaw-domain-security.yml
