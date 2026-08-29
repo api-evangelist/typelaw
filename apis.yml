@@ -7,6 +7,17 @@ description: TypeLaw is an AI-powered legal document automation platform that fo
   pages, and certificates, with a human expert reviewing every document before delivery.
   A Bloomberg Beta portfolio company, TypeLaw delivers its product through its web
   application and does not currently publish a public developer API.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
