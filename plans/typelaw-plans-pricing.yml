@@ -51,3 +51,41 @@ plans:
   period: none
   included_quota: Volume pricing subscriptions for frequent filers and exclusive self-service pricing
     for panel attorneys
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - hybrid
+  units: []
+  plans:
+  - name: Briefs, Motions, Pleadings
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - other
+    periods:
+    - other
+  - name: Appendices & Exhibit Lists
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - other
+    periods:
+    - other
+  - name: Brief + Appendix Bundle
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - other
+    periods:
+    - other
+  - name: Volume pricing subscriptions (10+ briefs per year)
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
