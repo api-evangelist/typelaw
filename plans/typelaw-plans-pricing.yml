@@ -1,0 +1,53 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.typelaw.com/pricing/
+sources:
+- https://www.typelaw.com/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: usage-other
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Flat per-document service pricing with optional rush fees; volume subscription pricing is quote-only.
+plan_count: 4
+currency: USD
+plans:
+- name: Briefs, Motions, Pleadings
+  price_text: $1895
+  price: 1895
+  currency: USD
+  period: per-use
+  unit: per brief/motion/pleading
+  included_quota: Automatic tables (TOC & TOA), local-rules compliant formatting, hyperlinked citations,
+    hosting & hyperlinking citations to the record, e-file ready, 100% quality check, next-business-day
+    turnaround
+  overage: Rush same-day turnaround (optional) + $995
+- name: Appendices & Exhibit Lists
+  price_text: $1895
+  price: 1895
+  currency: USD
+  period: per-use
+  unit: per appendix/exhibit list
+  included_quota: Automatic creation of indexes, electronic bookmarks, OCR text-searchable exhibits, separate
+    volumes per rules of court, 100% quality check, next-business-day turnaround
+  overage: Rush same-day turnaround (optional) +$995
+- name: Brief + Appendix Bundle
+  price_text: $2895
+  price: 2895
+  currency: USD
+  period: per-use
+  unit: per bundle
+  included_quota: All of the above services; save $895 by bundling
+  overage: Rush same-day turnaround (optional) +$1995
+- name: Volume pricing subscriptions (10+ briefs per year)
+  price_text: Contact us for full details.
+  period: none
+  included_quota: Volume pricing subscriptions for frequent filers and exclusive self-service pricing
+    for panel attorneys
